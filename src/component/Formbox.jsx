@@ -38,7 +38,7 @@ const Formbox = ({ setCng, cng }) => {
 
     try {
       // Check if email exists
-      const checkResponse = await fetch("/api/json-server/users", {
+      const checkResponse = await fetch("/api/users", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -71,7 +71,7 @@ const Formbox = ({ setCng, cng }) => {
         return;
       }
 
-      const submitResponse = await fetch("/api/json-server/users", {
+      const submitResponse = await fetch("/api/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

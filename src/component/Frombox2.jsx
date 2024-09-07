@@ -35,7 +35,7 @@ const Frombox2 = () => {
       alert("Please agree to the term and conditions");
       return;
     }
-    const checkResponse = await fetch("/api/json-server/users", {
+    const checkResponse = await fetch("/api/users", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

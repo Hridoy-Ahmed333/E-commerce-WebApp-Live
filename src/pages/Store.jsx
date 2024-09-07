@@ -20,7 +20,7 @@ function Store() {
 
     try {
       const response = await fetch(
-        `/api/json-server/${
+        `/api/${
           active === 1
             ? "rockingChair"
             : active === 2
