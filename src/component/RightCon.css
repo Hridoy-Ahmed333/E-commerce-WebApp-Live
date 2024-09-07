@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Italianno&family=Playwrite+NL:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Playwrite+NL:wght@100..400&display=swap");
+.left-cont {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  background-image: url("../../public/useable2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroicon {
+  background-color: rgba(30, 153, 245, 1);
+  width: 89px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Italianno", cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 27px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.furni {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: white;
+}
+
+.flex2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: rgba(30, 153, 245, 1);
+}
+
+.description {
+  width: 445px;
+  height: 38px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

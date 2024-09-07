@@ -1,0 +1,36 @@
+.detail-checkout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detail-checkout-container {
+  display: flex;
+  flex-direction: column;
+  height: 116px;
+  gap: 12px;
+  border-bottom: 2px solid rgba(236, 236, 236, 1);
+}
+
+.flex-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-text {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(101, 101, 101, 1);
+}
+
+.totalCheck {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 600;
+  color: rgba(101, 101, 101, 1);
+}
+.totalCash {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 600;
+}

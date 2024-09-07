@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.orderDetail {
+  margin-top: 19px;
+  margin-bottom: 96px;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.ordCont1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ordCont2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 380px;
+  height: 375px;
+}
+
+.orderHeader {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+}
+.subOrder1 {
+  display: flex;
+  width: 740px;
+  align-items: center;
+  background-color: rgba(250, 250, 250, 1);
+  justify-content: center;
+}
+.subOrder2 {
+  background-color: rgba(250, 250, 250, 1);
+  border: 1px solid rgba(222, 222, 222, 1);
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.checkout-btn {
+  height: 56px;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.ord-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

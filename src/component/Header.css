@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Italianno&family=Playwrite+NL:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.header-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-bottom: 1px solid rgba(241, 241, 241, 1);
+}
+.icon2 {
+  background-color: rgba(30, 153, 245, 1);
+  height: 38px;
+  width: 38px;
+  font-size: 24px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 50%;
+  font-family: "Italianno", cursive;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.funi {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  font-family: "Barlow", sans-serif;
+}
+
+.flex {
+  font-size: 20px;
+  line-height: 24.2px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: rgba(30, 153, 245, 1);
+  font-family: "Barlow", sans-serif;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-family: "Barlow", sans-serif;
+}
+
+.link-box {
+  height: 38px;
+  width: 87px;
+  border: 6px;
+  padding: 8px, 20px, 8px, 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link-box:hover {
+  cursor: pointer;
+}
+.cart-icon {
+  cursor: pointer;
+}
+.pic-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-image: url(../../public/profile.jpg);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.totalCartNumber {
+  position: absolute;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  line-height: 13.44px;
+  font-weight: 500;
+  border-radius: 50%;
+  top: 18px;
+  left: 17px;
+}

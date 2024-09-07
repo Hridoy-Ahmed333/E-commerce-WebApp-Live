@@ -1,0 +1,12 @@
+.welcome2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dsc {
+  color: rgba(112, 112, 112, 1);
+}

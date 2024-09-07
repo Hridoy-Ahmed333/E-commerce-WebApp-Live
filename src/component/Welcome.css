@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Italianno&family=Playwrite+NL:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Playwrite+NL:wght@100..400&display=swap");
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.name-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.furnii {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: black;
+}
+
+.flexx {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: rgba(30, 153, 245, 1);
+}
+
+.descriptionn {
+  width: 445px;
+  height: 38px;
+  color: rgba(112, 112, 112, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.namee {
+  font-size: 40px;
+  margin-top: 10px;
+}

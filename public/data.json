@@ -1,0 +1,504 @@
+{
+  "users": [
+    {
+      "id": "b978",
+      "firstName": "Md. Rubayat ",
+      "lastName": "Hossain Ridoy",
+      "email": "hridoy@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "acfb",
+      "firstName": "Md. Rubayat ",
+      "lastName": "Ridoy",
+      "email": "a@gmail.com",
+      "password": "123"
+    }
+  ],
+  "rockingChair": [
+    {
+      "id": "rc1",
+      "name": "Classic Rocking Chair",
+      "description": "A classic wooden rocking chair with a vintage design.",
+      "price": 150,
+      "discount": 0.1,
+      "pictureUrl": "https://i5.walmartimages.com/seo/Mainstays-Outdoor-Wood-Porch-Rocking-Chair-Natural-Yellow-Color-Weather-Resistant-Finish_ed855032-41a9-45ca-8b4c-d48e87bfa81f.76db275b9597e17ad03b2d58ed9bb936.jpeg"
+    },
+    {
+      "id": "rc2",
+      "name": "Modern Rocking Chair",
+      "description": "A sleek modern rocking chair with a metal frame.",
+      "price": 200,
+      "discount": 0.15,
+      "pictureUrl": "https://admin.regalfurniturebd.com/storage/uploads/fullsize/2023-12/rch-306.jpg"
+    },
+    {
+      "id": "rc3",
+      "name": "Comfort Rocking Chair",
+      "description": "An ultra-comfortable rocking chair with extra padding.",
+      "price": 180,
+      "discount": 0.12,
+      "pictureUrl": "https://admin.regalfurniturebd.com/storage/uploads/fullsize/2021-11/rch-5.jpg"
+    },
+    {
+      "id": "rc4",
+      "name": "Vintage Rocking Chair",
+      "description": "A vintage-style rocking chair made from reclaimed wood.",
+      "price": 220,
+      "discount": 0.2,
+      "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QAgMD2V3O446CX1BvOu0Y2UMXutJ9w4ZWQ&s"
+    },
+    {
+      "id": "rc5",
+      "name": "Contemporary Rocking Chair",
+      "description": "A contemporary rocking chair with a sleek design.",
+      "price": 210,
+      "discount": 0.14,
+      "pictureUrl": "https://m.media-amazon.com/images/I/71-lRLGIJ6L._AC_SL1500_.jpg"
+    },
+    {
+      "id": "rc6",
+      "name": "Outdoor Rocking Chair",
+      "description": "A weather-resistant rocking chair perfect for outdoor use.",
+      "price": 175,
+      "discount": 0.1,
+      "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7kz4mfYMSPdeD8M5IhmN9d1Qb9dfgoHV6sw&s"
+    },
+    {
+      "id": "rc7",
+      "name": "Classic Oak Rocking Chair",
+      "description": "A traditional oak rocking chair with a comfortable design.",
+      "price": 195,
+      "discount": 0.08,
+      "pictureUrl": "https://media.licdn.com/dms/image/D4D12AQFvTEvd3jQ3Uw/article-cover_image-shrink_720_1280/0/1698008569215?e=2147483647&v=beta&t=zQFhEJlfCb9dkJHLOfiqZ_3DvfRSxrRPD2p3JYa_IZQ"
+    },
+    {
+      "id": "rc8",
+      "name": "Modern Leather Rocking Chair",
+      "description": "A modern rocking chair with leather upholstery.",
+      "price": 240,
+      "discount": 0.15,
+      "pictureUrl": "https://admin.regalfurniturebd.com/storage/uploads/fullsize/2021-11/rch-6.jpg"
+    },
+    {
+      "id": "rc9",
+      "name": "Minimalist Rocking Chair",
+      "description": "A minimalist rocking chair with a sleek, simple design.",
+      "price": 130,
+      "discount": 0.05,
+      "pictureUrl": "https://www.leekes.co.uk/media/catalog/product/cache/41de4231f41aba4009fa4e5cf5d5b0d6/1/1/1123229_3l.jpg"
+    },
+    {
+      "id": "rc10",
+      "name": "Eco-Friendly Rocking Chair",
+      "description": "An eco-friendly rocking chair made from sustainable materials.",
+      "price": 160,
+      "discount": 0.07,
+      "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Moravsk%C3%A1_galerie_02_-_Thonet-Mundus_k%C5%99eslo.jpg/640px-Moravsk%C3%A1_galerie_02_-_Thonet-Mundus_k%C5%99eslo.jpg"
+    },
+    {
+      "id": "rc11",
+      "name": "Elegant Rocking Chair",
+      "description": "An elegant rocking chair with fine wood craftsmanship.",
+      "price": 250,
+      "discount": 0.18,
+      "pictureUrl": "https://www.leekes.co.uk/media/catalog/product/cache/41de4231f41aba4009fa4e5cf5d5b0d6/1/1/1123229_3l.jpg"
+    },
+    {
+      "id": "rc12",
+      "name": "Rustic Rocking Chair",
+      "description": "A rustic rocking chair with a natural wood finish.",
+      "price": 190,
+      "discount": 0.11,
+      "pictureUrl": "https://sika-design.com/cdn/shop/products/Monet_gyngestol_jute_4840_ffb4e431-2e1e-4ec0-8c98-8efbfb1e7fa9_1200x.jpg?v=1647918827"
+    },
+    {
+      "id": "rc13",
+      "name": "Classic Walnut Rocking Chair",
+      "description": "A classic rocking chair made from rich walnut wood.",
+      "price": 230,
+      "discount": 0.13,
+      "pictureUrl": "https://cdn20.pamono.com/p/g/1/6/1607734_e9otjola2n/vintage-rocking-chair-in-walnut-1950s-image-1.jpg"
+    },
+    {
+      "id": "rc14",
+      "name": "Modern Fabric Rocking Chair",
+      "description": "A modern rocking chair with a fabric seat and back.",
+      "price": 200,
+      "discount": 0.1,
+      "pictureUrl": "https://hatil-image.s3.ap-southeast-1.amazonaws.com/master_image/Hickory-108.png"
+    },
+    {
+      "id": "rc15",
+      "name": "Elegant Fabric Rocking Chair",
+      "description": "An elegant fabric rocking chair with a comfortable design.",
+      "price": 210,
+      "discount": 0.09,
+      "pictureUrl": "https://m.media-amazon.com/images/I/71-lRLGIJ6L._AC_SL1500_.jpg"
+    },
+    {
+      "id": "rc16",
+      "name": "Wooden Slat Rocking Chair",
+      "description": "A rocking chair with a wooden slat back and seat.",
+      "price": 170,
+      "discount": 0.08,
+      "pictureUrl": "https://www.isho.com/storage/media/jEW9b2OsMyEBXPoDK92mc5XoBdl30RBt0tjVuCcZ.jpeg"
+    },
+    {
+      "id": "rc17",
+      "name": "Modern Padded Rocking Chair",
+      "description": "A modern rocking chair with padded arms and seat.",
+      "price": 215,
+      "discount": 0.12,
+      "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtFMtMjM9aQGm3LDy2zRf8ZQitnWd86GX4dA&s"
+    },
+    {
+      "id": "rc18",
+      "name": "Designer Rocking Chair",
+      "description": "A designer rocking chair with a unique frame and design.",
+      "price": 300,
+      "discount": 0.2,
+      "pictureUrl": "https://admin.regalfurniturebd.com/storage/uploads/fullsize/2023-12/rch-206.jpg"
+    },
+    {
+      "id": "rc19",
+      "name": "Luxury Leather Rocking Chair",
+      "description": "A luxury rocking chair with high-quality leather.",
+      "price": 350,
+      "discount": 0.25,
+      "pictureUrl": "https://www.furniturelibrary.com/wp-content/uploads/2021/01/rocking-chair02.jpg"
+    },
+    {
+      "id": "rc20",
+      "name": "Wooden Rocking Chair",
+      "description": "A wooden rocking chair with a curved design.",
+      "price": 160,
+      "discount": 0.1,
+      "pictureUrl": "https://i.etsystatic.com/30457381/r/il/e10354/4169856402/il_570xN.4169856402_4wo1.jpg"
+    }
+  ],
+  "sideChair": [
+    {
+      "id": "sc1",
+      "name": "Simple Side Chair",
+      "description": "A simple side chair with a minimalistic design.",
+      "price": 75,
+      "discount": 0.05,
+      "pictureUrl": "https://m.media-amazon.com/images/I/715jjU2Qo+L._AC_SL1000_.jpg"
+    },
+    {
+      "id": "sc2",
+      "name": "Classic Side Chair",
+      "description": "A classic wooden side chair perfect for dining rooms.",
+      "price": 85,
+      "discount": 0.08,
+      "pictureUrl": "https://optimise2.assets-servd.host/fine-elk/production/images/Lea-side-chair-side-view-InsideOutContracts.jpg?w=1200&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1566211043&s=159e57b17d9bc7fcdd3bfa4f2cd9c98d"
+    },
+    {
+      "id": "sc3",
+      "name": "Comfort Side Chair",
+      "description": "A comfortable side chair with plush cushions.",
+      "price": 90,
+      "discount": 0.1,
+      "pictureUrl": "https://www.thosmoser.com/wp-content/uploads/TM_Chair_BSC_0721_studio_3qua_hr-2100x1990-e75fc105-f5ff-4325-8d62-8bacc53a5daf.jpg"
+    },
+    {
+      "id": "sc4",
+      "name": "Modern Side Chair",
+      "description": "A modern side chair with a sleek design.",
+      "price": 120,
+      "discount": 0.12,
+      "pictureUrl": "https://media.istockphoto.com/id/182729395/photo/contemporary-beech-cushioned-chair-side-view-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=RPnKI6rFMdH9Z-7bgjR9hWiDIJLrZZ59iCAJ4fLcyVA="
+    },
+    {
+      "id": "sc5",
+      "name": "Rustic Side Chair",
+      "description": "A rustic side chair with a natural wood finish.",
+      "price": 80,
+      "discount": 0.07,
+      "pictureUrl": "https://media.istockphoto.com/id/177346788/photo/wooden-chair.jpg?s=612x612&w=0&k=20&c=XQdWq-l8Fi2jh5RtTdup52ukcXoow4fz6Uo6Uv_eMh0="
+    },
+    {
+      "id": "sc6",
+      "name": "Vintage Side Chair",
+      "description": "A vintage-style side chair with elegant detailing.",
+      "price": 100,
+      "discount": 0.1,
+      "pictureUrl": "https://www.geigerfurniture.com/content/dam/ggrcom/page_assets/products/deft_chair/ggr_th_deft_chair_side_chairs_hv.jpg.rendition.480.480.jpg"
+    },
+    {
+      "id": "sc7",
+      "name": "Industrial Side Chair",
+      "description": "A robust industrial-style side chair with metal accents.",
+      "price": 95,
+      "discount": 0.09,
+      "pictureUrl": "https://woodsala.com/cdn/shop/files/1_8c4ac18e-199c-4caf-a955-0fa4a8527b0f.jpg?v=1703148348&width=3000"
+    },
+    {
+      "id": "sc8",
+      "name": "Elegant Side Chair",
+      "description": "An elegant side chair with intricate woodwork.",
+      "price": 110,
+      "discount": 0.11,
+      "pictureUrl": "https://images-cdn.ubuy.co.in/633fecabcac94728f4764eb3-huimo-arm-chair-accent-chair-wooden.jpg"
+    },
+    {
+      "id": "sc9",
+      "name": "Contemporary Side Chair",
+      "description": "A contemporary side chair with a modern silhouette.",
+      "price": 115,
+      "discount": 0.12,
+      "pictureUrl": "https://www.megaishop.com/wp-content/uploads/2021/08/eames-plastic-side-chair-1.jpg"
+    },
+    {
+      "id": "sc10",
+      "name": "Art Deco Side Chair",
+      "description": "A stylish side chair with an Art Deco design.",
+      "price": 130,
+      "discount": 0.15,
+      "pictureUrl": "https://m.media-amazon.com/images/I/51xiO7wj55L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "sc11",
+      "name": "Modern Wood Side Chair",
+      "description": "A modern side chair crafted from solid wood.",
+      "price": 105,
+      "discount": 0.08,
+      "pictureUrl": "https://www.kirklandmuseum.org/wp-content/uploads/2019/02/DA_Gehry_WIGGLE.jpg"
+    },
+    {
+      "id": "sc12",
+      "name": "Designer Side Chair",
+      "description": "A designer side chair with a unique frame and seat.",
+      "price": 150,
+      "discount": 0.18,
+      "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTignc41BvZNfkK36x7XLcuWr1NrJLcBXYKxw&s"
+    },
+    {
+      "id": "sc13",
+      "name": "Mid-Century Side Chair",
+      "description": "A mid-century inspired side chair with a timeless design.",
+      "price": 120,
+      "discount": 0.1,
+      "pictureUrl": "https://www.saloom.com/wp-content/uploads/2021/09/100SU-Angle-view.jpg"
+    },
+    {
+      "id": "sc14",
+      "name": "Luxury Side Chair",
+      "description": "A luxurious side chair with leather upholstery.",
+      "price": 200,
+      "discount": 0.18,
+      "pictureUrl": "https://nuansdesign.com/wp-content/uploads/2020/09/True-Design-Tao-Side-Chair-Upholstered-x-Nuans-TA-1004-5.jpg"
+    },
+    {
+      "id": "sc15",
+      "name": "Classic Padded Side Chair",
+      "description": "A classic side chair with padded cushions for extra comfort.",
+      "price": 90,
+      "discount": 0.07,
+      "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmHr4MUxzN2lvOwUofKwFTRPWkObGr8k0qvw&s"
+    },
+    {
+      "id": "sc16",
+      "name": "Folding Side Chair",
+      "description": "A practical folding side chair, perfect for extra seating.",
+      "price": 70,
+      "discount": 0.05,
+      "pictureUrl": "https://www.furnitureworld.co.uk/images/products/standard/14605_109689.jpg?t=1690897935"
+    },
+    {
+      "id": "sc17",
+      "name": "Minimalist Side Chair",
+      "description": "A minimalist side chair with a sleek and simple design.",
+      "price": 80,
+      "discount": 0.06,
+      "pictureUrl": "https://www.geigerfurniture.com/content/dam/ggrcom/page_assets/products/bumper_side_chair/ggr_mh_prd_ovw_bumper_side_chair.jpg.rendition.480.360.jpg"
+    },
+    {
+      "id": "sc18",
+      "name": "Wicker Side Chair",
+      "description": "A side chair with a wicker seat and back, perfect for outdoor use.",
+      "price": 85,
+      "discount": 0.07,
+      "pictureUrl": "https://theodorealexander.sirv.com/ProductPhotos/SC4/SC40011.1DJS_main_1.jpg?profile=new-ProductDetailGalleryDesktop&w=800"
+    },
+    {
+      "id": "sc19",
+      "name": "High-Back Side Chair",
+      "description": "A high-back side chair with a supportive design.",
+      "price": 110,
+      "discount": 0.09,
+      "pictureUrl": "https://cdn.designtoscano.com/product_images/english-chippendale-side-chair-1-af1007/606d78f95fc37c00194c34cb/zoom.jpg?c=1681492200"
+    },
+    {
+      "id": "sc20",
+      "name": "Retro Side Chair",
+      "description": "A retro-inspired side chair with bold colors.",
+      "price": 100,
+      "discount": 0.12,
+      "pictureUrl": "https://assets.nickscali.com/media/catalog/product/cache/6cc0596e45ce2f5b15d1cad8a3f995a2/4/0/4000x2500px_vansu_dining_chair_1020_v2.jpg"
+    }
+  ],
+  "loungeChair": [
+    {
+      "id": "lc1",
+      "name": "Modern Lounge Chair",
+      "description": "A modern lounge chair with a sleek design.",
+      "price": 300,
+      "discount": 0.12,
+      "pictureUrl": "https://i5.walmartimages.com/seo/Top-Leather-Lounge-Chair-with-Ottoman-Mid-Century-Recline-Accent-Chair-Upholstered-for-Living-Room_f1a6be0e-de9a-4efb-8bd9-2ff8cec701b2.54cb79ab87c6d1bc5cfe7dee59847a60.jpeg"
+    },
+    {
+      "id": "lc2",
+      "name": "Classic Lounge Chair",
+      "description": "A classic lounge chair with wooden arms.",
+      "price": 350,
+      "discount": 0.15,
+      "pictureUrl": "https://static-01.daraz.com.bd/p/e5201c5393dd14b159770180c9910394.jpg"
+    },
+    {
+      "id": "lc3",
+      "name": "Luxury Lounge Chair",
+      "description": "A luxurious lounge chair with premium materials.",
+      "price": 500,
+      "discount": 0.2,
+      "pictureUrl": "https://mozaikdesign.com/wp-content/uploads/2023/06/vitra-eames-lounge-chair-ottoman-ambiance-011.jpg"
+    },
+    {
+      "id": "lc4",
+      "name": "Vintage Lounge Chair",
+      "description": "A vintage-style lounge chair with a tufted back.",
+      "price": 400,
+      "discount": 0.18,
+      "pictureUrl": "https://image.architonic.com/sto3-2/20262196/lead-arcit18.jpeg"
+    },
+    {
+      "id": "lc5",
+      "name": "Contemporary Lounge Chair",
+      "description": "A contemporary lounge chair with sleek lines.",
+      "price": 320,
+      "discount": 0.14,
+      "pictureUrl": "https://i5.walmartimages.com/seo/ESSENTIAL-LOUNGER-Outdoor-Chair-Lounge-Chair-Adjustable-5-Position-with-Cushions-Retractable-Foot-Rest-Steel-Frame-Material-Wicker-Rattan-Blue_83a818a7-5848-4ee4-bdc4-8db0fb088b77.a31acbab62f13729846e0834b7b4ca40.jpeg"
+    },
+    {
+      "id": "lc6",
+      "name": "Designer Lounge Chair",
+      "description": "A designer lounge chair with a unique silhouette.",
+      "price": 450,
+      "discount": 0.16,
+      "pictureUrl": "https://dm4c9mjc2jvtf.cloudfront.net/product-media/3P6M/3200/2400/vitra-eames-lounge-chair-Phlox-lifestyle-3200.webp"
+    },
+    {
+      "id": "lc7",
+      "name": "Reclining Lounge Chair",
+      "description": "A reclining lounge chair with adjustable back and footrest.",
+      "price": 550,
+      "discount": 0.22,
+      "pictureUrl": "https://www.homesdirect365.co.uk/images/gloria-lounge-chair-p53286-68760_zoom.jpg"
+    },
+    {
+      "id": "lc8",
+      "name": "Outdoor Lounge Chair",
+      "description": "A weather-resistant lounge chair for outdoor use.",
+      "price": 280,
+      "discount": 0.1,
+      "pictureUrl": "https://www.takeaseat.sg/wp-content/uploads/2021/05/Lounge-Chair-4.jpg"
+    },
+    {
+      "id": "lc9",
+      "name": "Leather Lounge Chair",
+      "description": "A luxurious leather lounge chair with a classic design.",
+      "price": 600,
+      "discount": 0.25,
+      "pictureUrl": "https://cimmermann.uk/cdn/shop/articles/eames_2_1600x.jpg?v=1652267586"
+    },
+    {
+      "id": "lc10",
+      "name": "Mid-Century Lounge Chair",
+      "description": "A mid-century modern lounge chair with iconic styling.",
+      "price": 400,
+      "discount": 0.15,
+      "pictureUrl": "https://modern1furniture.com/wp-content/uploads/2023/04/metropol-upholstered-italian-lounge-chair-by-formenti-1.jpg"
+    },
+    {
+      "id": "lc11",
+      "name": "High-Back Lounge Chair",
+      "description": "A high-back lounge chair with supportive design.",
+      "price": 375,
+      "discount": 0.14,
+      "pictureUrl": "https://www.2modern.com/cdn/shop/collections/gus-hilary-lounge-chair.jpg?v=1694464364"
+    },
+    {
+      "id": "lc12",
+      "name": "Swivel Lounge Chair",
+      "description": "A swivel lounge chair with 360-degree rotation.",
+      "price": 425,
+      "discount": 0.16,
+      "pictureUrl": "https://cdn.connox.com/m/100035/684195/media/Vitra/2023/Vitra-Lounge-Chair-Ottoman-poliert-Kirschbaum-Nubia-creme-sand-Situation.jpg"
+    },
+    {
+      "id": "lc13",
+      "name": "Padded Lounge Chair",
+      "description": "A lounge chair with extra padding for maximum comfort.",
+      "price": 390,
+      "discount": 0.12,
+      "pictureUrl": "https://www.isho.com/storage/media/gC7wamerK7UFIVRvvZRzsqKFsIGKqHV3LYb6VS3x.jpeg"
+    },
+    {
+      "id": "lc14",
+      "name": "Wooden Frame Lounge Chair",
+      "description": "A lounge chair with a sturdy wooden frame.",
+      "price": 350,
+      "discount": 0.1,
+      "pictureUrl": "https://m.media-amazon.com/images/I/61ZTM0NTyhS._AC_SL1000_.jpg"
+    },
+    {
+      "id": "lc15",
+      "name": "Armless Lounge Chair",
+      "description": "An armless lounge chair with a minimalist design.",
+      "price": 300,
+      "discount": 0.08,
+      "pictureUrl": "https://www.home-designing.com/wp-content/uploads/2018/12/Red-Lounge-Chair-Stainless-Steel-Legs-Arne-Jacobsen-Style-Egg-Chair-600x800.jpg"
+    },
+    {
+      "id": "lc16",
+      "name": "Chesterfield Lounge Chair",
+      "description": "A Chesterfield-inspired lounge chair with deep button tufting.",
+      "price": 550,
+      "discount": 0.2,
+      "pictureUrl": "https://eurekaergonomic.com/cdn/shop/files/Eureka_Ergonomic_Chloe_Comfort_Rocking_Lounge_Chair.jpg?v=1721965988"
+    },
+    {
+      "id": "lc17",
+      "name": "Adjustable Lounge Chair",
+      "description": "A lounge chair with adjustable backrest and leg support.",
+      "price": 480,
+      "discount": 0.18,
+      "pictureUrl": "https://images.hermanmiller.group/m/2cb3f49756b75233/W-KNO_7876_100454617_honey_chrome_v1_001.png?auto=format&mediaId=7BD343D5-6923-4A04-B602B1EC66215195&rect=.0982%2C.1057%2C.8701%2C.8701&auto=format&w=1000&q=40"
+    },
+    {
+      "id": "lc18",
+      "name": "Scandinavian Lounge Chair",
+      "description": "A Scandinavian-inspired lounge chair with clean lines.",
+      "price": 410,
+      "discount": 0.14,
+      "pictureUrl": "https://www.yankodesign.com/images/design_news/2021/09/auto-draft/09_ru_cuongnguyen_loungechair.jpg"
+    },
+    {
+      "id": "lc19",
+      "name": "Fabric Lounge Chair",
+      "description": "A lounge chair upholstered in soft fabric for a cozy feel.",
+      "price": 375,
+      "discount": 0.12,
+      "pictureUrl": "https://urbanmood.sg/cdn/shop/products/louise2_800x.jpg?v=1610630272"
+    },
+    {
+      "id": "lc20",
+      "name": "Eco-Friendly Lounge Chair",
+      "description": "A lounge chair made from sustainable materials.",
+      "price": 450,
+      "discount": 0.15,
+      "pictureUrl": "https://danishdesignco.com.sg/wp-content/uploads/2021/04/Erik-Jorgensen-Corona-Classic-Lounge-Chair.jpg"
+    }
+  ]
+}

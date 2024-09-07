@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.footer-Container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+.footer-Container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 108px;
+}
+
+.icon {
+  background-color: rgba(30, 153, 245, 1);
+  height: 38px;
+  width: 38px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.funi {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.flex {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 130px;
+  font-family: "Barlow", sans-serif;
+}
+
+.foot-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.foot-sub-cont {
+  display: flex;
+  flex-direction: column;
+  width: 500;
+  font-size: 18px;
+  color: rgba(129, 133, 159, 1);
+  line-height: 22px;
+}
+
+.last-footer-container {
+  display: flex;
+  flex-direction: column;
+  color: rgba(129, 133, 159, 1);
+  padding-top: 30px;
+  font-family: "Barlow", sans-serif;
+  border-top: 1px solid rgba(37, 41, 72, 1);
+}
+
+.footer-box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.icon-box2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.footer-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(50, 53, 68, 1);
+  margin-top: 25px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.productCard {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-family: "Barlow", sans-serif;
+}
+
+.imageContainer {
+  height: 50%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.imageContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.productDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.productName {
+  font-size: 18px;
+  line-height: 21.6px;
+  font-weight: 600;
+}
+
+.priceBox {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 18px;
+  justify-content: center;
+  gap: 12px;
+}
+.cut {
+  text-decoration: line-through;
+  color: rgba(171, 171, 171, 1);
+}
+
+.off {
+  color: red;
+}
+
+.proddesc {
+  color: rgba(131, 131, 131, 1);
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 16.8px;
+}
+
+.btn-str {
+  background-color: black;
+  color: white;
+  padding: 24px, 0px, 24px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
