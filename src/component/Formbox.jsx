@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Formbox.css";
 
 const Formbox = ({ setCng, cng }) => {
@@ -14,6 +14,12 @@ const Formbox = ({ setCng, cng }) => {
   const [isClick, setIsClick] = useState(false);
   const [emailExists, setEmailExists] = useState(null);
 
+  useEffect(() => {
+    const use = JSON.parse(localStorage.getItem("users"));
+    if (!use) {
+      localStorage.setItem("users", JSON.stringify([]));
+    }
+  }, []);
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -38,18 +44,13 @@ const Formbox = ({ setCng, cng }) => {
 
     try {
       // Check if email exists
-      const checkResponse = await fetch("/api/users", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const users = JSON.parse(localStorage.getItem("users"));
 
-      if (!checkResponse.ok) {
+      if (!users) {
         throw new Error("Email check failed");
       }
 
-      const checkResult = await checkResponse.json();
+      const checkResult = users;
 
       const existingUser = checkResult.find((user) => {
         return user.email.toLowerCase() === formData.email.toLowerCase();
@@ -71,24 +72,54 @@ const Formbox = ({ setCng, cng }) => {
         return;
       }
 
-      const submitResponse = await fetch("/api/users", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          firstName: formData.firstName,
-          lastName: formData.lastName,
-          email: formData.email,
-          password: formData.password,
-        }),
-      });
+      // const submitResponse = await fetch("http://localhost:5050/users", {
+      //   method: "POST",
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      //   body: JSON.stringify({
+      //     id: Date.now().toString(),
+      //     firstName: formData.firstName,
+      //     lastName: formData.lastName,
+      //     email: formData.email,
+      //     password: formData.password,
+      //   }),
+      // });
 
-      if (!submitResponse.ok) {
+      // if (!submitResponse.ok) {
+      //   throw new Error("Submission failed");
+      // }
+
+      // const result = await submitResponse.json();
+
+      // Retrieve the existing users array from localStorage
+      let allusers = JSON.parse(localStorage.getItem("users")) || [];
+
+      // Create the new user object
+      const newUser = {
+        id: Date.now().toString(),
+        firstName: formData.firstName,
+        lastName: formData.lastName,
+        email: formData.email,
+        password: formData.password,
+      };
+
+      // Simulate the POST request by adding the new user to the users array
+      allusers.push(newUser);
+
+      // Save the updated users array back to localStorage
+      localStorage.setItem("users", JSON.stringify(allusers));
+
+      // Simulate the API response check
+      if (!newUser) {
         throw new Error("Submission failed");
       }
 
-      const result = await submitResponse.json();
+      // Now, the result will be equivalent to the newUser
+      const result = newUser;
+
+      // Continue with your logic using result
+
       console.log("Data written successfully:", result);
       alert("Signup successful!");
       setCng(!cng);

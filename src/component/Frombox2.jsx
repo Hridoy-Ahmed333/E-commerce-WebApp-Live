@@ -35,20 +35,29 @@ const Frombox2 = () => {
       alert("Please agree to the term and conditions");
       return;
     }
-    const checkResponse = await fetch("/api/users", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    // const checkResponse = await fetch("http://localhost:5050/users", {
+    //   method: "GET",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    // });
 
-    if (!checkResponse.ok) {
+    // if (!checkResponse.ok) {
+    //   throw new Error("Email check failed");
+    // }
+
+    // const checkResult = await checkResponse.json();
+
+    const users = JSON.parse(localStorage.getItem("users"));
+
+    // Simulate the API response check
+    if (!users) {
       throw new Error("Email check failed");
     }
 
-    const checkResult = await checkResponse.json();
+    // Now, users will be equivalent to checkResult
+    const checkResult = users;
 
-    // Check if email exists in the result
     const existingUser = checkResult.find((user) => {
       return user.email.toLowerCase() === formData.email.toLowerCase();
     });

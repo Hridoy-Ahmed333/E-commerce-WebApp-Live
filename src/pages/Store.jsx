@@ -20,12 +20,12 @@ function Store() {
 
     try {
       const response = await fetch(
-        `/api/${
+        `https://hridoy-ahmed333.github.io/api/${
           active === 1
-            ? "rockingChair"
+            ? "rockingChair.json"
             : active === 2
-            ? "sideChair"
-            : "loungeChair"
+            ? "sideChair.json"
+            : "loungeChair.json"
         }`,
         {
           method: "GET",
