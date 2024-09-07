@@ -1,6 +1,6 @@
 import "./LeftCon.css";
 import Formbox from "./Formbox";
-import Welcome from "./welcome";
+import Welcome from "./Welcome";
 import Welcome2 from "./Welcome2";
 import Formbox2 from "./Frombox2";
 import { useState } from "react";
